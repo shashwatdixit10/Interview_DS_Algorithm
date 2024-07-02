@@ -35,9 +35,8 @@ public:
                 q.push(v);
             }
         }
-        vector<int> ans;
         if(count!=numCourses)
-        return ans;
+        return {};
         return result; 
     }
 };
