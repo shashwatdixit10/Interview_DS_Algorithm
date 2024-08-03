@@ -1,0 +1,1 @@
+select e1.unique_id, u1.name from Employees as u1 left join EmployeeUNI as e1 on u1.id = e1.id;
